@@ -1,4 +1,4 @@
-name: lgy_Evening Exercise
+name: LGY_Evening Exercise
 
 on:
   schedule:
@@ -21,5 +21,5 @@ jobs:
       - name: Run app
         run: python main.py -r 38 -d 1200 -t 360
         env:
-          USER_ID: ${{ secrets.USER_ID }}
-          FUDAN_SPORT_TOKEN: ${{ secrets.FUDAN_SPORT_TOKEN }}
+          USER_ID: ${{ secrets.LGY_ID }}
+          FUDAN_SPORT_TOKEN: ${{ secrets.LGY_TOKEN }}
