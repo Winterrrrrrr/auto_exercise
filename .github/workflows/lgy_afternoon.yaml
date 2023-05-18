@@ -1,8 +1,8 @@
-name: Afternoon Exercise
+name: lgy_Afternoon Exercise
 
 on:
   schedule:
-    - cron: '00 08 * * 1-5'
+    - cron: '00 08 * * 0-6'
   workflow_dispatch:
 
 jobs:
