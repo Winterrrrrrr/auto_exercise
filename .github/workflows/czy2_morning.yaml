@@ -21,5 +21,5 @@ jobs:
       - name: Run app
         run: python main.py -r 28 -d 1200 -t 420
         env:
-          USER_ID: ${{ secrets.LYY_ID }}
-          FUDAN_SPORT_TOKEN: ${{ secrets.LYY_TOKEN }}
+          USER_ID: ${{ secrets.CZY2_ID }}
+          FUDAN_SPORT_TOKEN: ${{ secrets.CZY2_TOKEN }}
