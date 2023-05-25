@@ -1,8 +1,8 @@
-name: lyy_Morning Exercise
+name: czy2_Afternoon Exercise
 
 on:
   schedule:
-    - cron: '50 22 * * 0-6'
+    - cron: '00 08 * * 0-6'
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       - name: Prepare environment
         run: pip install -r requirements.txt
       - name: Run app
-        run: python main.py -r 28 -d 1200 -t 420
+        run: python main.py -r 33 -d 1200 -t 360
         env:
           USER_ID: ${{ secrets.LYY_ID }}
           FUDAN_SPORT_TOKEN: ${{ secrets.LYY_TOKEN }}
