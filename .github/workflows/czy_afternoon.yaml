@@ -2,7 +2,7 @@ name: czy_Afternoon Exercise
 
 on:
   schedule:
-    - cron: '00 08 * * 0-6'
+    #- cron: '00 08 * * 0-6'
   workflow_dispatch:
 
 jobs:
